@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="assets_backend"
+        name="rt_pos_butt assets"
+        inherit_id="point_of_sale.assets"
+    >
+        <xpath expr="." position="inside">
+            <script
+                type="text/javascript"
+                src="/rt_pos_button/static/src/js/rt_pos_btn.js"
+            />
+        </xpath>
+    </template>
+</odoo>
